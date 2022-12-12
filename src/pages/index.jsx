@@ -16,9 +16,10 @@ const Home = () => {
 
   return (
     <main className="h-screen grid place-items-center bg-blue-600 text-3xl text-white text-center">
-      <div>
+      <div className="grid gap-4">
         <h1> Welcome to bhanudaya.edu.np</h1>
-        <span className="text-sm">{dateTime}</span>
+        <p className="text-sm">{dateTime}</p>
+        <p className="text-lg">Coming soon...</p>
       </div>
     </main>
   );
